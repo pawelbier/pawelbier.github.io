@@ -1,0 +1,49 @@
+
+@media all and (min-width: 1171px) {
+
+.img-high {
+        display: block;
+    }
+.img-medium {
+        display: none;
+    }
+    
+    #napis {
+        left: 15%;
+        top: 40%;
+        }
+}
+    @media all and (min-width: 992px) and (max-width: 1170px) {
+        
+        .img-high {
+        display: none; 
+        }
+    .img-medium {
+        display: block; 
+        }
+    
+    #napis {
+        left: 75%;
+        top: 10%;
+        }
+    }
+
+    @media all and (max-width: 991px) {
+    
+        
+        #napis {
+        display: inline-block;
+        color: black;
+        position: relative;
+        left: 35%;
+        top: 100%;
+        }
+
+.img-high {
+        display: block; 
+        }
+    .img-medium {
+        display: none; 
+        }
+}
+    
