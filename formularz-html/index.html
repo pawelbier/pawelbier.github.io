@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <form id="container" action="https://formspree.io/pawelbier@poczta.onet.pl" method="post">
+
+        <label for="imie">Imię:</label><br/>
+        <input type="text" name="imie" id="imie"><br/>
+        <label for="nazwisko">Nazwisko:</label><br/>
+        <input type="text" name="nazwisko" id="nazwisko"><br/>
+        <label for="email">Email:</label><br/>
+        <input type="text" name="email" id="email"><br/>
+        <label for="numer_telefonu">Numer Telefonu:</label><br/>
+        <input type="text" name="numer_telefonu" id="numer_telefonu"><br/>
+        <label for="numer_telefonu">Miasto:</label><br/>
+        
+        <select name="select">
+        <option value="value1">Kraków</option>
+        <option value="value2" selected>Warszawa</option>
+        <option value="value3">Gdańsk</option>
+    </select><br/>
+
+        <form action="menn">
+            <input type="radio" name="men" value="Mężczyzna" />Mężczyzna
+        </form>
+
+        <form action="womenn">
+            <input type="radio" name="women" value="Kobieta" />Kobieta
+        
+        </form>
+
+        <input type="checkbox" name="vehicle1" value="zgoda">zgoda na dane osobowe<br>
+
+        <label for="wiadomosc">Wiadomość:</label><br/>
+        <textarea maxlength=“1000”></textarea><br/>
+
+        <input type="submit" value="Wyślij">
+    </form>
+    
+</body>
+
+</html>
