@@ -1,23 +1,32 @@
-#body {
-    margin: 0;
-    color: white;
+* {
+    font-family: verdana;
+
 }
 
-figure {
+html,
+body {
+    margin: 0;
+    height: 100%;
+    padding: 0;
+    color: white;
+
+}
+
+#container {
+    background-image: url(../img/man-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: center center;
+    height: 100%;
     margin: 0;
     position: relative;
+
 }
 
-figure img {
-    
-    width: 100%;
-}
+
 #napis {
     position: absolute;
-    top: 45%;
     margin: 0;
-    color: white;
+    top: 45%;
     left: 5%;
-    
-    
-}

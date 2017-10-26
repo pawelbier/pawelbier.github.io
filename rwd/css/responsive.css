@@ -1,49 +1,38 @@
+@media all and (min-width: 992px) and (max-width: 1170px) {
 
-@media all and (min-width: 1171px) {
+    #container {
+        background-image: url(../img/man-2.jpg);
+        height: 70%;
 
-.img-high {
-        display: block;
     }
-.img-medium {
-        display: none;
+    #text {
+        left: 55%;
+        top: 4%;
+
     }
-    
-    #napis {
-        left: 15%;
-        top: 40%;
-        }
 }
-    @media all and (min-width: 992px) and (max-width: 1170px) {
-        
-        .img-high {
-        display: none; 
-        }
-    .img-medium {
-        display: block; 
-        }
-    
-    #napis {
-        left: 75%;
-        top: 10%;
-        }
+
+@media all and (max-width: 991px) {
+
+    body {
+        text-align: center;
+
     }
 
-    @media all and (max-width: 991px) {
-    
-        
-        #napis {
+    #container {
+        height: 50%;
+
+    }
+
+    #napis {
         display: inline-block;
         color: black;
         position: relative;
-        left: 35%;
-        top: 100%;
-        }
+        width: 90%;
+        margin: 0;
+        font-size: 2vh;
 
-.img-high {
-        display: block; 
-        }
-    .img-medium {
-        display: none; 
-        }
+    }
+
 }
     
