@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <form id="container" action="https://formspree.io/pawelbier@poczta.onet.pl" method="post">
+    <form action="https://formspree.io/pawelbier@poczta.onet.pl" method="post">
 
         <label for="imie">Imię:</label><br/>
         <input type="text" name="imie" id="imie"><br/>
@@ -26,21 +26,22 @@
         <option value="value3">Gdańsk</option>
     </select><br/>
 
-        <form action="menn">
-            <input type="radio" name="men" value="Mężczyzna" />Mężczyzna
-        </form>
-
-        <form action="womenn">
-            <input type="radio" name="women" value="Kobieta" />Kobieta
-    
-        </form>
-
-        <input type="checkbox" name="vehicle1" value="zgoda">zgoda na dane osobowe<br>
+        <p>Płeć:<br/>
+            <label for="kobieta">Kobieta</label>
+            <input type="radio" name="plec" value="kobieta" id="kobieta"/><br/>
+            <label for="mezczyzna">Mężczyzna</label>
+            <input type="radio" name="plec" value="mezczyna"id="mezczyzna"/><br/>
+        </p>
 
         <label for="wiadomosc">Wiadomość:</label><br/>
-        <textarea maxlength=“1000”></textarea><br/>
-
+        <textarea maxlength="1000" name="wiadomosc" id="wiadomosc"></textarea><br/>
+        
+        <label for="zgoda">Wyrażam zgodę na przetwarzanie danych osobowych.</label>
+        <input type="checkbox" name="zgoda" id="zgoda"><br/><br/>
+        
         <input type="submit" value="Wyślij">
+        
+        
     </form>
     
 </body>
